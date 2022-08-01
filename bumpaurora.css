@@ -1,0 +1,392 @@
+/* @font-face {
+	font-family: 'avenir';
+	src: url('Avenir_Light.ttf');
+} */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+#top {
+    /* The image used */
+    background-image: url("auroraarc_background.jpeg");
+  
+    min-height: 800px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /* Needed to position the navbar */
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    width: auto;
+}
+
+
+#topnav{
+	width: 1437px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+	text-align: center;
+	font-size: 16pt;
+	margin: auto;
+    text-transform: uppercase;
+}
+
+nav{
+	width: 80%;
+    position: sticky;
+    margin: 10px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    flex-basis: 10%;
+    position: relative;
+}
+
+#logo img{
+    width: 100px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 40px;
+}
+
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links ul li a:hover,
+.nav-links ul li a.active {
+    color: #C9C9C9;
+}
+
+#buytickets button{
+    border: 1px solid white;
+    color: white;
+    padding: 10px 32px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: transparent;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	position: relative;
+	opacity: 1;
+    font-family: Georgia, Times, "Times New Roman", serif;
+
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+#buytickets button:hover,
+#buytickets button.active {
+    color: #68F5C0;
+    border-color: #68F5C0;
+}
+
+
+#auroratitle{
+    padding: 100px;
+    /* position: relative; */
+}
+
+#auroratitle img {
+    width: 40%;
+    margin: auto;
+    display: block;
+}
+
+#auroratitle h1 {
+    text-align: center;
+    color: white;
+    padding: 70px;
+}
+
+#about {
+    background-color: black;
+    min-height: 500px;
+    padding: 70px 190px 0px 190px;
+    color: white;
+}
+
+#about h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24pt;
+}
+
+#about p {
+    text-align: justify;
+    margin: 50px 0px 0px 0px;
+    font-size: 18pt;
+}
+
+#schedule {
+    background-image: url("auroraarc_background2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+    padding: 70px 300px 0px 300px;
+    color: white;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16pt;
+}
+
+#schedule h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24pt;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    margin: 50px 0px 0px 0px;
+}
+
+.column p {
+    text-align: center;
+}
+
+#live-locations{
+    flex: 1;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16pt;
+}
+
+#live-locations ul li{
+    list-style: none;
+    margin: 0px 40px 50px 0px;
+}
+  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#goods {
+    background-color: white;
+    height: 80vw;
+    padding: 0px 190px 0px 190px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    /* position: sticky; */
+    /* margin: 10px auto; */
+    /* z-index: 1; */
+    /* display: flex; */
+    margin-left: 10vw;
+    padding-top: 5%;
+}
+
+#goods-top {
+    height: 10vw;
+    display: flex;
+}
+
+#goods h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-size: 24pt;
+    margin-top: 10%;
+}
+
+
+.goodsside {
+    width: 300px;
+}
+
+.goodsimage {
+    height: 20vw;
+    
+}
+
+#bump-goods {
+    margin-top: 5vw;
+    /* margin-right: auto;
+    margin-left: auto;
+    text-align: center; */
+    width: 50vw;;
+    /* margin-right: 100vw; */
+    /* float: left; */
+    /* position: relative;
+    margin-left: auto; */
+    /* margin-right: 20vw; */
+}
+
+#goods-button {
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #326F93;
+    text-decoration: none;
+    font-size: 16px;
+	position: relative;
+	opacity: 1;
+    font-family: Georgia, Times, "Times New Roman", serif;
+
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    
+    /* margin-right: 20vw; */
+    margin-top: 50vw;
+    width: 80%
+}
+
+#goods-button:hover,
+#goods-button.active {
+    color: #68F5C0;
+}
+
+/* fading stuff */
+
+
+.container {
+    width: 100%;
+}
+
+
+
+
+
+@media screen and (max-width: 650px) {
+    .scroll-container,
+    .scroll-container:nth-of-type(even) {
+      flex-direction: column;
+      align-content: inherit;
+    }
+  
+    .scroll-element {
+      height: 100%;
+    }
+  
+    .scroll-element,
+    .scroll-caption {
+      width: 100%;
+    }
+  }
+  /**Styling scrollable elements*/
+  
+  .js-scroll {
+    opacity: 0;
+    transition: opacity 500ms;
+  }
+  
+  .js-scroll.scrolled {
+    opacity: 1;
+  }
+  
+  
+  .scrolled.fade-in-bottom {
+    animation: fade-in-bottom 1s ease-in-out both;
+  }
+  
+  
+  
+  @keyframes fade-in-bottom {
+    0% {
+      -webkit-transform: translateY(50px);
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+
+  #bottom button {
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    z-index: 1000;
+    /* transform: rotate(360deg); */
+    background-color: rgba(255, 255, 255, 0.7);
+    /* -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+   filter: progid: dximagetransform.microsoft.basicimage(rotation=3); */
+    text-align: center;
+    text-decoration: none;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    text-transform: uppercase;
+
+    padding: 10px 20px;
+    border-radius: 10px;
+	font-size: 12pt;
+    border: none;
+    box-shadow: 3px 3px 10px gray;
+    
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+  }
+
+  #uparrow {  
+    width: 16px;
+  }
+
+  footer {
+      background-color: #326F93;
+      color: white;
+      display: inline-block;
+      width: 90%;
+      padding: 5%;
+  }
+
+  .textboxes {
+      width: 50%;
+  }
+
+  .textbox1 {
+      float: left;
+  }
+
+  .textbox2 {
+      float: right;
+  }

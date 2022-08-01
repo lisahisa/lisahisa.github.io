@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+}
+
+#alternating {
+    font-family: "Helvetica Neue", Georgia, "Times New Roman", serif;
+    color: white;
+    width: 100%;
+    margin: auto;
+    display: block;
+    text-align: center; 
+    height: 100vh;
+    line-height: 100vh; 
+    font-weight: 100;
+    /* text-transform: uppercase; */
+}
+
+/* #startdate {
+    opacity: 1;
+    transition: 1s opacity;
+}
+
+#letsgo {
+    opacity: 0;
+    transition: 1s opacity;
+}
+
+p {
+    color: white;
+} */
+
+/* div{ posititon: relative; }
+.other-text{ position: absolute; }
+.other-text:nth-child(1){ animation-name: fade; animation-fill-mode: both; animation-iteration-count: infinite; animation-duration: 5s; animation-direction: alternate-reverse;  }
+.other-text:nth-child(2){animation-name: fade;animation-fill-mode: both;animation-iteration-count: infinite;animation-duration: 5s;animation-direction: alternate;}
+
+@keyframes fade{
+    0%,50% {
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+} */
